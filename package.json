@@ -1,0 +1,14 @@
+{
+  "name": "circleci-test2_211125",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

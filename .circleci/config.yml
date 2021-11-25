@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build: 
+    docker: 
+      - image: cimg/node:16.11
+    steps: 
+      - checkout
+      - run: yarn install
+      - run: yarn test
